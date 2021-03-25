@@ -1,200 +1,245 @@
+/* Sets each box smaller by default by setting it as a boarder box and giving it no padding and margin*/
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+/* Sets the body's background color to a slightly grey white */
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
 }
 
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+  /* sets the padding of the header to 20px */
+  padding: 20px;
+  /* lists the fonts which will be called on */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* Sets the background color of the header to a grey blue */
+  background-color: #2a607c;
+  /* sets the default color of the text in the header to white */
+  color: #ffffff;
 }
-
+/* Sets the header 1 line to be inline and have a font size of 48px */
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+  display: inline-block;
+  font-size: 48px;
 }
 
+/* Have the "seo" be a grey white color */
 header h1 .seo {
-    color: #d9dcd6;
+  color: #d9dcd6;
 }
 
 header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  /* Creates a 15px padding on top of the divider in the header */
+  padding-top: 15px;
+  /* Sets the right margin to 20px */
+  margin-right: 20px;
+  /* Makes the content start at the right and move left as needed */
+  float: right;
+  /* declares desired fonts */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* Sets font size to 20px */
+  font-size: 20px;
 }
 
+/* Sets no list style type */
 header div ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
+/* Makes the list content be inline and have a 25px left margin */
 header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
+/* Sets all anchor tag text to have no text decoration and be completely white */
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 section {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+  /* Declares the height of the section as 800px */
+  height: 800px;
+  /* Sets the width to span all the way across */
+  width: 100%;
+  /* Sets a 25px bottom margin */
+  margin-bottom: 25px;
+  /* Sets the background image */
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  /* Sets the image size so the whole image is evenly spread across */
+  background-size: cover;
+  /* centers the image */
+  background-position: center;
 }
 
+/* sets the width to take up 75% of the space, makes the content inline, and adds a 20px left margin */
 article {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  /* Sets the bottom margin to 20px */
+  margin-bottom: 20px;
+  /* Sets the padding to be 50px */
+  padding: 50px;
+  /* Sets box height to 300px */
+  height: 300px;
+  /* sets the desired fonts */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* Sets the background color to be blue */
+  background-color: #0072bb;
+  /* Sets the text color to be white */
+  color: #ffffff;
 }
 
+/* Sets the image max height to 200px */
 .search-engine-optimization img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
+/* Makes the image float left with a 25px margin */
 .float-left {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* Sets the font size to 36px and a bottom margin of 20px */
+article h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
+/* Sets all p sections to have a text size of 16px */
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  /* Sets the bottom margin to 20px */
+  margin-bottom: 20px;
+  /* Sets a 50px padding to the box */
+  padding: 50px;
+  /* Sets box height to 300 px */
+  height: 300px;
+  /* Sets desired fonts for text in box */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* Sets the box background color to blue */
+  background-color: #0072bb;
+  /* sets the text color to white */
+  color: #ffffff;
 }
 
+/* Sets the image max height to 200 px */
 .online-reputation-management img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
+/* Makes the image float right with a 25px left margin */
 .float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  float: right;
+  margin-left: 25px;
 }
 
 .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  /* Sets the bottom margin to 20px */
+  margin-bottom: 20px;
+  /* Sets a 50px padding to the box */
+  padding: 50px;
+  /* Sets box height to 300 px */
+  height: 300px;
+  /* Sets desired fonts for text in box */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* Sets the box background color to blue */
+  background-color: #0072bb;
+  /* sets the text color to white */
+  color: #ffffff;
 }
 
+/* Sets the image max height to 20px */
 .social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  max-height: 200px;
 }
 
 summary {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    /* Sets right margin to 20px */
+  margin-right: 20px;
+  /* Sets the padding to 20px  */
+  padding: 20px;
+  /* Makes the content float right */
+  float: right;
+  /* Sets box width to 20% of screen */
+  width: 20%;
+  /* Sets the height to 100% of the space */
+  height: 100%;
+  /* Sets desired fonts */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* Sets color to a light blue */
+  background-color: #2589bd;
 }
 
+/* Sets the margin to 32px and sets the text white */
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
-.benefit-lead h3 {
+/* Sets the bottom margin to 10px and alligned the content to the center  */
+summary h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Gives a block display, sets the margin to 10px and auto, and sets the max width to 150px */
 .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
+/* Sets the margin to 32px and sets the text white */
 .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Gives a block display, sets the margin to 10px and auto, and sets the max width to 150px */
 .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
+/* Sets the margin to 32px and sets the text white */
 .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Gives a block display, sets the margin to 10px and auto, and sets the max width to 150px */
 .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    /* Sets the padding to 30px */
+  padding: 30px;
+ /* sets desired fonts */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    /* aligns the text to the center */
+  text-align: center;
 }
 
+/* Sets the font size to 20px */
 footer h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
